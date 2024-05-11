@@ -1,6 +1,6 @@
 const questions = [
     {
-        questions: 'Who is the capital of Romania?',
+        question: 'Who is the capital of Romania?',
         options: ['Bucharest', 'Paris', 'Rome', 'Madrid'],
         answer: 'Bucharest',
     },
@@ -75,3 +75,10 @@ const nextButton = document.getElementById('next_button');
 
 let currentQuestionIndex = 0;
 let score = 0;
+
+function startQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
