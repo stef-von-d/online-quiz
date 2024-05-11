@@ -1,73 +1,54 @@
 const questions = [
     {
-        question: 'Who is the capital of Romania?',
-        options: ['Bucharest', 'Paris', 'Rome', 'Madrid'],
-        answer: 'Bucharest',
-    },
+        question: "Who is the of Romania? " ,
+        answers: [
+            {text:"Bucharest" , correct: true},
+            {text:"Rome" , correct: false} , 
+            {text: "Madrid" , correct: false},
+            {text: "London" , correct: false},
+        ]
+    }, 
+
     {
-        question: 'What is the most spoken language in the world?',
-        options: ['Spanish', 'Spanish', 'Italian', 'Chinese'],
-        answer: 'Spanish',
-    },
-    {
-        question: 'What is the tallest animal in the world?',
-        options: ['Whales', 'Elephant', 'Giraffes', 'Dogs'],
-        answer: 'Giraffes',
-    },
-    {
-        question: "What is the biggest continent?",
-        options: ['Europe', 'Asia', 'North America', 'Africa'],
-        answer: 'Asia',
-    },
-    {
-        question: 'What is the capital of Canada?',
-        options: ['Ottawa', 'London', 'Montreal', 'Vancouver'],
-        answer: 'Ottawa',
+        question: "What is the most spoken language in the world?" ,
+        answers: [
+        {text: "English" , correct: false}, 
+        {text:"Italian" , correct: false},
+        {text:"Chinese" , correct: false}, 
+        {text:"Spanish" , correct:true} 
+        ]
     },
 
     {
-        question: 'What is the best-selling book series of the 21st century?',
-        options: ['Harry Potter', 'Hunger Games', 'Notebook', 'Twilight'],
-        answer: 'Harry Potter',
-    },
+        question: "What is the biggest continent? " ,
+        answers: [
+            {text: "Europe", correct: false} ,
+            {text: "Africa", correct: false} ,
+            {text:"Asia" correct: true} ,
+            {text:"North America" , correct: false},
+        ]
+    }, 
 
     {
-        question: 'When did London underground open?',
-        options: ['1900', '1903', '1905', '1863'],
-        answer: '1863',
-    },
+        question: "How many times zones are in Russia?" ,
+        answers: [
+            {text: "3" , correct: false},
+            {text: "8", correct: false}, 
+            {text:"11" , correct: true}, 
+            {text:"2", correct: false},
+        ]
+    }, 
 
     {
-        question: 'What city do the Beatles come from?',
-        options: ['Brighton', 'London', 'Manchester', 'Liverpool'],
-        answer: 'Liverpool',
-    },
-
-    {
-        question: 'How many days does it take for Earth to orbit the Sun?',
-        option: ['360', '362', '364', '365'],
-        answer: '365'
-    },
-
-    {
-        question: 'What language is spoken in Brazil?',
-        option: ['Spanish', 'Brazilian', 'Portuguese', 'English'],
-        answer: 'Portuguese',
-    },
-
-    {
-        question: 'What is the main ingredient in hummus?',
-        option: ['Chickpeas', 'Lentils', 'Potatoes', 'Beans'],
-        answer: 'Chickpeas' ,
-    },
-
-    {
-        question: 'The human adult have ... teeth?',
-        option: ['33', '32', '34', '31'],
-        answer: '32',
-    },
-
-];
+        question:"What is the national flower of Japan?" , 
+        answers: [
+            {text: "Sunflower" , correct: false}, 
+            {text: "Cherry Blossom", correct: true},
+            {text: "Aloe Vera" , correct: false},
+            {text:"None", correct: false} , 
+        ],
+    }
+   
 
 const questionElement = document.getElementById('question');
 const answerButton = document.getElementById('ans_btn');
