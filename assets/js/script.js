@@ -50,6 +50,9 @@ const questions = [
   }
 ];
 
+
+
+
 const questionElement = document.getElementById('question');
 const answerButton = document.getElementById('answer_buttons');
 const nextButton = document.getElementById('next_button');
@@ -58,23 +61,34 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 function startQuiz() {
-  nextButton.innerHTML = "Next";
-  showQuestion();
+nextButton.innerHTML = "Next";
+showQuestion();
 }
 
 function showQuestion() {
-  let currentQuestion = questions[currentQuestionIndex];
-  let questionNo = currentQuestionIndex + 1;
-  questionElement.innerHTML = " " + currentQuestion.question
-  console.log(currentQuestion);
-  console.log(currentQuestion.question);
+let currentQuestion = questions[currentQuestionIndex];
+console.log(currentQuestion)
+let questionNo = currentQuestionIndex + 1;
+questionElement.innerHTML = " " + currentQuestion.question
+console.log(currentQuestion);
+console.log(currentQuestion.question);
 
+// Console log currentQuestion.answers just to make sure they exist!
+console.log("Answers: ", currentQuestion.answers)
+
+// use forEach to loop through the answsers array
+currentQuestion.answers.forEach((answer) => {
+  // console log each answer
+  console.log(answer)
 
   const button = document.createElement("button");
-  button.innerHTML = currentQuestion.answer;
+  button.innerHTML = answer.text;
 
   button.classList.add("btn");
   answerButton.appendChild(button);
+})
+
+
 
 }
 
