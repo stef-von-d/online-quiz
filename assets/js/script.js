@@ -54,7 +54,7 @@ const questions = [
 
 
 const questionElement = document.getElementById('question');
-const answerButton = document.getElementById('answer_buttons');
+const answerButtons = document.getElementById('answer_buttons');
 const nextButton = document.getElementById('next_button');
 
 let currentQuestionIndex = 0;
@@ -66,6 +66,7 @@ showQuestion();
 }
 
 function showQuestion() {
+  resetState();
 let currentQuestion = questions[currentQuestionIndex];
 console.log(currentQuestion)
 let questionNo = currentQuestionIndex + 1;
@@ -85,11 +86,17 @@ currentQuestion.answers.forEach((answer) => {
   button.innerHTML = answer.text;
 
   button.classList.add("btn");
-  answerButton.appendChild(button);
+  answerButtons.appendChild(button);
 })
 
 
+}
 
+function resetState(){
+  nextButton.style.display = "none";
+  while (answerButtons.firstChild) {
+    answerButtons.removeChild(answerButtons.firstChild);
+  }
 }
 
 startQuiz();
