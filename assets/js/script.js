@@ -106,14 +106,14 @@ function resetState(){
 
 
 function selectAnswer (e) {
-  console.log(selectBtn);
-  const selectAnswer = e.target;
-  const isCorrect = selectedBtn.dataset.correct === "true";
+  const selectBtn = e.target;
+  const isCorrect = selectBtn.dataset.correct === "true";
   if(isCorrect){
-    selectedBtn.classList.add("correct");
+    selectBtn.classList.add("correct");
       }else{
-        selectedBtn.classList.add("incorrect");
+        selectBtn.classList.add("incorrect");
       }
+      console.log(selectBtn);
       nextButton.style.display = "block";
       
 }
