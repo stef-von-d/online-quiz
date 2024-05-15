@@ -97,8 +97,6 @@ const questions = [
       {text: "Brighton" , correct: false},
     ],
   },
-
-
 ];
 
 
@@ -108,6 +106,8 @@ const nextButton = document.getElementById('next_button');
 
 let currentQuestionIndex = 0;
 let score = 0;
+let count = 10;
+let timer;
 
 /**
  * Function to start the quiz
@@ -118,6 +118,7 @@ function startQuiz() {
   score = 0;
 nextButton.innerHTML = "Next";
 showQuestion();
+startTimer();
 }
 
 
@@ -169,8 +170,6 @@ function resetState(){
 /**
  * Select Answer 
  */
-
-
 function selectAnswer (e) {
   const selectBtn = e.target;
   const isCorrect = selectBtn.dataset.correct === "true";
@@ -197,7 +196,7 @@ function showScore() {
 }
 
 /**
- * Next question fuction
+ * Define the handle next button function
  */
 
 function handleNextButton(){
@@ -209,6 +208,9 @@ function handleNextButton(){
   }
 }
 
+/**
+ * Function for the next button
+ */
 
 nextButton.addEventListener("click", ()=> {
   if(currentQuestionIndex < questions.length){
