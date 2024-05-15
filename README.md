@@ -1,5 +1,7 @@
 # General Knowledge Quiz
 General Knowledge Quiz is a web application build with JavaScript where users test their knowledge by playing a quiz with  10 different questions. 
+
+
 ![Screenshot 2024-05-15 184946](https://github.com/stef-von-d/online-quiz/assets/159139306/f3ad166a-2ff9-4c2d-a3f4-dc3bc0015682)
 
 
