@@ -60,7 +60,11 @@ const nextButton = document.getElementById('next_button');
 let currentQuestionIndex = 0;
 let score = 0;
 
+
+
 function startQuiz() {
+  currentQuestionIndex = 0;
+  score = 0;
 nextButton.innerHTML = "Next";
 showQuestion();
 }
@@ -93,9 +97,9 @@ currentQuestion.answers.forEach((answer) => {
   button.addEventListener("click" , selectAnswer);
 
 });
-
-
 }
+
+
 
 function resetState(){
   nextButton.style.display = "none";
@@ -110,6 +114,7 @@ function selectAnswer (e) {
   const isCorrect = selectBtn.dataset.correct === "true";
   if(isCorrect){
     selectBtn.classList.add("correct");
+    score++;
       }else{
         selectBtn.classList.add("incorrect");
       }
@@ -117,6 +122,33 @@ function selectAnswer (e) {
       nextButton.style.display = "block";
       
 }
+
+function showScore() {
+  resetState();
+  questionElement.innerHTML = `You got ${score} out of ${questions.length}!`;
+  nextButton.innerHTML = "Play Again!";
+  nextButton.style.display = "block";
+}
+
+
+function handleNextButton(){
+  currentQuestionIndex++;
+  if(currentQuestionIndex < question.length) {
+    showQuestion();
+  }else{
+    showScore();
+  }
+}
+
+
+nextButton.addEventListener("click", ()=> {
+  if(currentQuestionIndex < questions.length){
+    handleNextButton();
+  }else {
+    startQuiz();
+  }
+
+}); 
 
 startQuiz();
 
