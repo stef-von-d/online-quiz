@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# General Knowledge Quiz
+General Knowledge Quiz is a web application build with JavaScript where users test their knowledge by playing a quiz with  10 different questions. 
 
-Welcome,
+## Features 
+###  Body Quiz Page
+* The user will be to see the quiz and start playing. Once the user selects the answer the user will be able to move to the next question. At the end of the game user will be able to see the final score. 
+## Favicon
+* Favicon is a running man borrowed from the Love Running Project. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
 
-## Codeanywhere Reminders
+## Technologies 
+#### HTML
+* The structure of the Website was developed using HTML as the main language.
+#### CSS
+* The Website was styled using CSS.
+###Javascript
+*The functions were written with javascript. Functions for quiz page were written in a separate file. 
+#### GitHub
+*	Source code is hosted on GitHub and deployed using Git Pages.
+#### Git
+*	Used to commit and push code during development of the project.
+### Gitpod
+*IDE used to develop website
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Languages 
+### 	HTML
+* To develope website structure.
+### 	CSS
+*	To give the site cusom styling.
+### 	Javascript
+* 	To develope functions to the site.
+*
+## Testing 
+### Browsers
+General Knowleadge Quiz website was tested on these browsers:
+* Chrome
+* Firefox
+*  Microsoft Edge
+  
+### General Knowleadge Quiz was tested on these additional devices through DevTool
+#### Chrome
+* iPhone pro 12
+ * Galaxy Tab S4
+#### Firefox
+*	Galaxy s20 Android 11
+*	iPad iPadOS 14.7.1
+  ### Microsoft Edge
+*	Noki N9
+*	iPad pro
 
-`python3 -m http.server`
+No issue found.
+*	Responsive through all pages.
+*	The design is consistent and correct thorug all pages.
+*	Navigation is correct and no broken links.
+* Bugs
+*	No know bugs were found during the testing.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+•	Lighthouse Testing
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+Validator
 
-`http_server`
+Wave
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Deployment
+The site was deployed to GitHub pges thorugh these steps:
+•	In the GitHub repository, navigate to the Settings tab.
+•	From the menu on left select 'Pages'
+•	From the source section drop-down menu, select the Main Branch
+•	Click 'Save'
+•	A live link to the webpage will be found under environments
+Responsiveness
+•	The WWQ site will be fully responsive and can be used on different devices and screen sizes.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Credits
+*	Code for question array syntax was borrowed from here: 
+ https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+*	Code for how to add a eventlisteners to options buttons were borrowed from here:  https://byby.dev/js-add-event-listener
+  
+## Favicon 
+* Taken from the Love Running Project 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Content
+Questions and answers for the quiz were borrowed from this site:
+100 Fun General Knowledge Quiz Questions [2024 Edition] (livereacting.com)
 
----
 
-Happy coding!
