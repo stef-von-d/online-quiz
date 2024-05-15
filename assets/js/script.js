@@ -60,8 +60,8 @@ let score = 0;
 
 
 function startQuiz() {
- // currentQuestionIndex = 0;
-  //score = 0;
+ currentQuestionIndex = 0;
+  score = 0;
 nextButton.innerHTML = "Next";
 showQuestion();
 }
@@ -103,7 +103,6 @@ function resetState(){
   }
 }
 
-
 function selectAnswer (e) {
   const selectBtn = e.target;
   const isCorrect = selectBtn.dataset.correct === "true";
@@ -124,7 +123,6 @@ function showScore() {
   nextButton.innerHTML = "Play Again!";
   nextButton.style.display = "block";
 }
-
 
 function handleNextButton(){
   currentQuestionIndex++;
