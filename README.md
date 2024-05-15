@@ -1,5 +1,8 @@
 # General Knowledge Quiz
 General Knowledge Quiz is a web application build with JavaScript where users test their knowledge by playing a quiz with  10 different questions. 
+![Screenshot 2024-05-15 184946](https://github.com/stef-von-d/online-quiz/assets/159139306/f3ad166a-2ff9-4c2d-a3f4-dc3bc0015682)
+
+
 
 ## Features 
 ###  Body Quiz Page
@@ -56,11 +59,28 @@ No issue found.
 * Bugs
 *	No know bugs were found during the testing.
 
-•	Lighthouse Testing
+##	Lighthouse Testing
+![Screenshot 2024-05-15 182314](https://github.com/stef-von-d/online-quiz/assets/159139306/591f2c7f-5380-4d15-8056-5e55b73f8135)
+![Screenshot 2024-05-15 182337](https://github.com/stef-von-d/online-quiz/assets/159139306/fc433c3e-c3a7-4236-a840-c0a34c86122d)
 
-Validator
 
-Wave
+## W3C HTML Validator
+![Screenshot 2024-05-15 184340](https://github.com/stef-von-d/online-quiz/assets/159139306/9e0348be-26c5-440a-8ce8-22fc1beb579c)
+
+
+
+## W3C CSS Validator (Jigsaw)
+![Screenshot 2024-05-15 184534](https://github.com/stef-von-d/online-quiz/assets/159139306/ece71286-a0e2-4ab8-b1b2-b17aa7566499)
+
+
+
+
+## Jshint Validator
+
+![Screenshot 2024-05-15 184737](https://github.com/stef-von-d/online-quiz/assets/159139306/1f9153c9-6cbb-4ebc-adbb-c788ca8c5afd)
+
+
+## Wave
 
 Deployment
 The site was deployed to GitHub pges thorugh these steps:
