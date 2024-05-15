@@ -58,6 +58,9 @@ const nextButton = document.getElementById('next_button');
 let currentQuestionIndex = 0;
 let score = 0;
 
+/**
+ * Function to start the quiz
+ */
 
 function startQuiz() {
  currentQuestionIndex = 0;
@@ -65,6 +68,11 @@ function startQuiz() {
 nextButton.innerHTML = "Next";
 showQuestion();
 }
+
+
+/**
+ * Show Questions
+ */
 
 function showQuestion() {
   resetState();
@@ -95,6 +103,9 @@ currentQuestion.answers.forEach((answer) => {
 
 });
 }
+/**
+ * Restart game
+ */
 
 function resetState(){
   nextButton.style.display = "none";
@@ -102,6 +113,12 @@ function resetState(){
     answerButtons.removeChild(answerButtons.firstChild);
   }
 }
+
+
+/**
+ * Select Answer 
+ */
+
 
 function selectAnswer (e) {
   const selectBtn = e.target;
@@ -117,12 +134,20 @@ function selectAnswer (e) {
       
 }
 
+/**
+ * Show score at the end of the game
+ */
+
 function showScore() {
   resetState();
   questionElement.innerHTML = `You got ${score} out of ${questions.length}!`;
   nextButton.innerHTML = "Play Again!";
   nextButton.style.display = "block";
 }
+
+/**
+ * Next question fuction
+ */
 
 function handleNextButton(){
   currentQuestionIndex++;
