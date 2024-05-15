@@ -24,7 +24,7 @@ General Knowledge Quiz is a web application build with JavaScript where users te
 #### Git
 *	Used to commit and push code during development of the project.
 ### Gitpod
-*IDE used to develop website
+* IDE used to develop website
 
 ## Languages 
 ### 	HTML
@@ -33,7 +33,7 @@ General Knowledge Quiz is a web application build with JavaScript where users te
 *	To give the site cusom styling.
 ### 	Javascript
 * 	To develope functions to the site.
-*
+
 ## Testing 
 ### Browsers
 General Knowleadge Quiz website was tested on these browsers:
