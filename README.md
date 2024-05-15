@@ -111,7 +111,6 @@ Responsiveness
 * Taken from the Love Running Project 
 
 ## Content
-Questions and answers for the quiz were borrowed from this site:
-100 Fun General Knowledge Quiz Questions [2024 Edition] (livereacting.com)
+Questions and answers for the quiz were borrowed from this site: https://blog.livereacting.com/100-fun-general-knowledge-quiz-questions-2024/
 
 
