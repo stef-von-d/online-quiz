@@ -47,7 +47,58 @@ const questions = [
       { text: "Aloe Vera", correct: false },
       { text: "None", correct: false },
     ],
-  }
+  },
+
+  {
+    question: "How many days does it take for Earth to orbit Sun?" ,
+    answers: [
+      {text: "360", correct: false},
+      {text:"370" , correct: false},
+      {text:"365" , correct:true},
+      {text:"366" , correct: false},
+    ],
+  },
+
+  {
+    question: "What is the main ingredient in hummus?" ,
+    answers: [
+      {text: "Chickpeas", correct: true}, 
+      {text: "Lentils" , correct: false},
+      {text: "Potatoes" , correct: false}, 
+      {text: "Beans" , correct: false},
+    ],
+  }, 
+  {
+    question: "The human adult has ... teeth?" ,
+    answers: [
+      {text:"32" , correct: true},
+      {text:"30" , correct: false},
+      {text:"33" , correct: false} ,
+      {text: "31" , correct: false},
+    ],
+  },
+
+  {
+    question: "When did London underground open?" ,
+    answers: [
+      { text: "1900" , correct: false},
+      {text:"1863", correct: true} ,
+      {text: "1855" , correct: false} ,
+      {text: "1860" , correct: false} ,
+    ],
+  },
+
+  {
+    question: "What city do the Beatles come from?" ,
+    answers: [
+      {text:"Manchester" , correct: false} ,
+      {text:"London" , correct: false} ,
+      {text:"Liverpool" , correct: true} ,
+      {text: "Brighton" , correct: false},
+    ],
+  },
+
+
 ];
 
 
