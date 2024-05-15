@@ -106,6 +106,7 @@ function resetState(){
 
 
 function selectAnswer (e) {
+  console.log(selectBtn);
   const selectAnswer = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
   if(isCorrect){
@@ -113,7 +114,8 @@ function selectAnswer (e) {
       }else{
         selectedBtn.classList.add("incorrect");
       }
-      console.log(selectBtn)
+      nextButton.style.display = "block";
+      
 }
 
 startQuiz();
