@@ -103,8 +103,9 @@ Responsiveness
 *	Code for question array syntax was borrowed from here: 
  https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
 
-*	Code for how to add a eventlisteners to options buttons were borrowed from here:  https://byby.dev/js-add-event-listener
-*	
+*	Code for how to add a eventlisteners to option buttons were borrowed from here:  https://byby.dev/js-add-event-listener
+
+  * Inspired to create JavaScript code from here: https://www.youtube.com/watch?v=riDzcEQbX6k and here https://www.youtube.com/watch?v=pQr4O1OITJo
   
 ## Favicon 
 * Taken from the Love Running Project 
