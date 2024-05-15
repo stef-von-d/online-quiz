@@ -6,7 +6,9 @@ General Knowledge Quiz is a web application build with JavaScript where users te
 
 ## Features 
 ###  Body Quiz Page
-* The user will be to see the quiz and start playing. Once the user selects the answer the user will be able to move to the next question. At the end of the game user will be able to see the final score. 
+* The user will be to see the quiz and start playing immediately. Once the user selects the answer the user will have to press "Next" button to move to the next question.The user will be able to see the final score at the end of the game.
+
+
 ## Favicon
 * Favicon is a running man borrowed from the Love Running Project. 
 
@@ -17,14 +19,16 @@ General Knowledge Quiz is a web application build with JavaScript where users te
 * The structure of the Website was developed using HTML as the main language.
 #### CSS
 * The Website was styled using CSS.
-###Javascript
+### Javascript
 *The functions were written with javascript. Functions for quiz page were written in a separate file. 
 #### GitHub
 *	Source code is hosted on GitHub and deployed using Git Pages.
 #### Git
 *	Used to commit and push code during development of the project.
-### Gitpod
+#### Gitpod
 * IDE used to develop website
+ #### Google fonts
+ * Used to import fonts
 
 ## Languages 
 ### 	HTML
@@ -39,12 +43,12 @@ General Knowledge Quiz is a web application build with JavaScript where users te
 General Knowleadge Quiz website was tested on these browsers:
 * Chrome
 * Firefox
-*  Microsoft Edge
+* Microsoft Edge
   
 ### General Knowleadge Quiz was tested on these additional devices through DevTool
 #### Chrome
 * iPhone pro 12
- * Galaxy Tab S4
+* Galaxy Tab S4
 #### Firefox
 *	Galaxy s20 Android 11
 *	iPad iPadOS 14.7.1
@@ -74,7 +78,6 @@ No issue found.
 
 
 
-
 ## Jshint Validator
 
 ![Screenshot 2024-05-15 184737](https://github.com/stef-von-d/online-quiz/assets/159139306/1f9153c9-6cbb-4ebc-adbb-c788ca8c5afd)
@@ -101,6 +104,7 @@ Responsiveness
  https://www.codewithfaraz.com/content/161/build-a-quiz-application-with-html-css-and-javascript-step-by-step-guide
 
 *	Code for how to add a eventlisteners to options buttons were borrowed from here:  https://byby.dev/js-add-event-listener
+*	
   
 ## Favicon 
 * Taken from the Love Running Project 
