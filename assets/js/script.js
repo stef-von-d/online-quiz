@@ -106,8 +106,6 @@ const nextButton = document.getElementById('next_button');
 
 let currentQuestionIndex = 0;
 let score = 0;
-let count = 10;
-let timer;
 
 /**
  * Function to start the quiz
