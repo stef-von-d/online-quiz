@@ -81,8 +81,10 @@ No issue found.
 
 
 ## Wave
+![Screenshot 2024-05-15 185239](https://github.com/stef-von-d/online-quiz/assets/159139306/1e1be706-ff33-4010-b563-176ff866c3a2)
 
-Deployment
+
+### Deployment
 The site was deployed to GitHub pges thorugh these steps:
 •	In the GitHub repository, navigate to the Settings tab.
 •	From the menu on left select 'Pages'
