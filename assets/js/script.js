@@ -51,8 +51,6 @@ const questions = [
 ];
 
 
-
-
 const questionElement = document.getElementById('question');
 const answerButtons = document.getElementById('answer_buttons');
 const nextButton = document.getElementById('next_button');
@@ -61,10 +59,9 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 
-
 function startQuiz() {
-  currentQuestionIndex = 0;
-  score = 0;
+ // currentQuestionIndex = 0;
+  //score = 0;
 nextButton.innerHTML = "Next";
 showQuestion();
 }
@@ -99,8 +96,6 @@ currentQuestion.answers.forEach((answer) => {
 });
 }
 
-
-
 function resetState(){
   nextButton.style.display = "none";
   while (answerButtons.firstChild) {
@@ -133,7 +128,7 @@ function showScore() {
 
 function handleNextButton(){
   currentQuestionIndex++;
-  if(currentQuestionIndex < question.length) {
+  if(currentQuestionIndex < questions.length) {
     showQuestion();
   }else{
     showScore();
